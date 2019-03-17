@@ -5,10 +5,12 @@
     loweset = ""
     temp = []
     temp_sort = []
+    tsc = 0
     name_hash.each do |key, value|
       temp << value
     end
     temp.each do |value|
+      temp_sort.count
       if temp_sort.count == 0
         temp_sort << value
       elsif value < temp_sort

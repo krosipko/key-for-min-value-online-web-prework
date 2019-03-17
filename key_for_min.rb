@@ -18,7 +18,7 @@ require 'pry'
       elsif value < temp_sort[0]
         temp_sort.unshift(value)
       else 
-        temp_sort.shift(value)
+        temp_sort << value
       end
     end
     binding.pry

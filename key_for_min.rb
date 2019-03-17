@@ -9,6 +9,13 @@
       temp << value
     end
     temp.each do |value|
-      if temp_sort.count
+      if temp_sort.count == 0
+        temp_sort << value
+      elsif value < temp_sort
+        temp_sort.unshift(value)
+      else 
+        temp_sort.shift(value)
+      end
+      temp_sort
   end
 

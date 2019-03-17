@@ -19,6 +19,6 @@
         temp_sort.shift(value)
       end
     end
-    
+    name_hash
   end
 

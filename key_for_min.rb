@@ -21,6 +21,7 @@ require 'pry'
         temp_sort.shift(value)
       end
     end
+    binding.pry
     name_hash.index(temp_sort[0])
   end
 

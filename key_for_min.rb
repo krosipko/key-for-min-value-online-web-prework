@@ -11,7 +11,7 @@
     end
     temp.each do |value|
       tsc = tmp_sort.count
-      if temp_sort.count == 0
+      if tsc == 0
         temp_sort << value
       elsif value < temp_sort
         temp_sort.unshift(value)

@@ -19,6 +19,6 @@
         temp_sort.shift(value)
       end
     end
-    temp_sort
+    
   end
 

@@ -19,6 +19,6 @@
         temp_sort.shift(value)
       end
     end
-    name_hash.index(value)
+    name_hash.index(temp_sort[0])
   end
 

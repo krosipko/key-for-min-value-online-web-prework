@@ -22,6 +22,6 @@ require 'pry'
       end
     end
   #  binding.pry
-    name_hash.index(temp_sort[0])
+    name_hash.key(temp_sort[0])
   end
 

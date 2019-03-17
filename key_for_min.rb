@@ -10,7 +10,7 @@
       temp << value
     end
     temp.each do |value|
-      temp_sort.count
+      tsc = tmp_sort.count
       if temp_sort.count == 0
         temp_sort << value
       elsif value < temp_sort

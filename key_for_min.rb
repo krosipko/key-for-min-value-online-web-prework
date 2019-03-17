@@ -13,7 +13,7 @@
       tsc = temp_sort.count
       if tsc == 0
         temp_sort << value
-      elsif value < temp_sort
+      elsif value < temp_sort[0]
         temp_sort.unshift(value)
       else 
         temp_sort.shift(value)

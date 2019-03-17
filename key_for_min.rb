@@ -7,6 +7,6 @@
     name_hash.each do |key, value|
       temp << value
     end
-
+    temp
   end
 
